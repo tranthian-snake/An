@@ -31,18 +31,26 @@ public class Time {
         return second;
     }
     public void setHour(int hour){
+        if(0<=hour&& hour<=23){
         this.hour=hour;
+        }
     }
     public void setMinute(int minute){
+        if(0<=minute&& minute<=59){
         this.minute=minute;
+        }
     }
     public void setSecond(int second){
+        if(0<=second&& second<=59){
         this.second=second;
+        }
     }
     public void setTime(int hour, int minute, int second){
+        if(0<=hour&& hour<=23&& 0<=minute&& minute<=59&& 0<=second&& second<=59){
         this.hour=hour;
         this.minute=minute;
         this.second=second;
+        }
     }
 
     @Override

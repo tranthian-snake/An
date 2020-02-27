@@ -31,18 +31,26 @@ public class Date {
         return year;
     }
     public void setDay(int day){
+         if(1<=day&& day<=31){
         this.day=day;
+         }
     }
     public void setMonth(int month){
+         if(1<=month&& month<=12){
         this.month=month;
+         }
     }
     public void setYear(int year){
+         if(1900<=year&& year<=9999){
         this.year=year;
+         }
     }
     public void setDate(int day, int month, int year){
+         if(1<=day&& day<=31&& 1<=month&& month<=12&& 1900<=year&& year<=9999){
         this.day=day;
         this.month=month;
         this.year=year;
+         }
     }
 
     @Override

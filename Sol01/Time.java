@@ -15,9 +15,11 @@ public class Time {
     private int second;
     
     public Time(int hour, int minute, int second){
+        if(0<=hour&& hour<=23&& 0<=minute&& minute<=59&& 0<=second&& second<=59){
         this.hour=hour;
         this.minute=minute;
         this.second=second;
+        }
     }
     public int getHour(){
         return hour;

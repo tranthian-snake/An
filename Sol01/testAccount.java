@@ -11,11 +11,13 @@ package Sol01;
  */
 public class testAccount {
     public static void main(String[] args) {
-        Sol01.Account a1=new Sol01.Account("T1653", "Peter");
+        Sol01.Account a1=new Sol01.Account("T1653", "Peter",200);
+        Sol01.Account a2=new Sol01.Account("F4236", "Matt",50);
+        
         System.out.println(a1.toString());
-        System.out.println("Credit= "+a1.credit(9));
-        System.out.println("Debit= "+a1.debit(3));
-        System.out.println("TransferTo= "+a1.transferTo(a1, 5));
+        System.out.println("TransferTo= "+a1.transferTo(a2, 90));
+        System.out.println("Credit = "+a1.credit(60));
+        System.out.println("Debit = "+a1.debit(10));
         
     }
 }

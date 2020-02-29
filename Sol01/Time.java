@@ -55,13 +55,37 @@ public class Time {
 
     @Override
     public String toString() {
-        return "Time{" + hour + ":" + minute + ":" + second + '}';
+        return String.format("%02d/%02d/%02d", hour, minute, second);
     }
     
-    public int nextSecond(){
-        return this.second=second+1;
+    public Time nextSecond(){
+        ++second;
+        if(second==60){
+            second=0;
+            ++minute;
+            if(second==60){
+                minute=0;
+                ++hour;
+                if(hour==24){
+                    hour=0;
+                }
+            }
+        }
+        return this;
     }
-     public int previousSecond(){
-        return this.second=second-1;
+    public Time previousSecond(){
+        --second;
+        if(second==0){
+            second=60;
+            --minute;
+            if(second==0){
+                minute=60;
+                --hour;
+                if(hour==0){
+                    hour=24;
+                }
+            }
+        }
+        return this;
     }
 }

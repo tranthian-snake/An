@@ -55,7 +55,10 @@ public class Date {
 
     @Override
     public String toString() {
-        return "Date{" + day + "/" + month + "/" + year + '}';
-    }
+        // Use built-in function String.format() to form a formatted String
+        return String.format("%02d/%02d/%4d", month, day, year);
+              // Specifier "0" to print leading zeros
+   }
+
     
 }

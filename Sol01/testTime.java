@@ -11,7 +11,7 @@ package Sol01;
  */
 public class testTime {
     public static void main(String[] args) {
-        Sol01.Time t1=new Sol01.Time(12, 30, 15);
+        Sol01.Time t1=new Sol01.Time(12, 5, 25);
         System.out.println(t1.toString());
         t1.setHour(4);
         System.out.println("Hour= "+t1.getHour());

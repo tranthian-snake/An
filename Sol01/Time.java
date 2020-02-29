@@ -20,6 +20,7 @@ public class Time {
         this.minute=minute;
         this.second=second;
         }
+        System.out.println("Retype");
     }
     public int getHour(){
         return hour;
@@ -34,16 +35,19 @@ public class Time {
         if(0<=hour&& hour<=23){
         this.hour=hour;
         }
+        System.out.println("Retype");
     }
     public void setMinute(int minute){
         if(0<=minute&& minute<=59){
         this.minute=minute;
         }
+        System.out.println("Retype");
     }
     public void setSecond(int second){
         if(0<=second&& second<=59){
         this.second=second;
         }
+        System.out.println("Retype");
     }
     public void setTime(int hour, int minute, int second){
         if(0<=hour&& hour<=23&& 0<=minute&& minute<=59&& 0<=second&& second<=59){
@@ -51,6 +55,7 @@ public class Time {
         this.minute=minute;
         this.second=second;
         }
+        System.out.println("Retype");
     }
 
     @Override

@@ -20,6 +20,7 @@ public class Date {
         this.month=month;
         this.year=year;
         }
+        System.out.println("Retype");
     }
     public int getDay(){
         return day;
@@ -34,16 +35,19 @@ public class Date {
          if(1<=day&& day<=31){
         this.day=day;
          }
+         System.out.println("Retype");
     }
     public void setMonth(int month){
          if(1<=month&& month<=12){
         this.month=month;
          }
+         System.out.println("Retype");
     }
     public void setYear(int year){
          if(1900<=year&& year<=9999){
         this.year=year;
          }
+         System.out.println("Retype");
     }
     public void setDate(int day, int month, int year){
          if(1<=day&& day<=31&& 1<=month&& month<=12&& 1900<=year&& year<=9999){
@@ -51,6 +55,7 @@ public class Date {
         this.month=month;
         this.year=year;
          }
+         System.out.println("Retype");
     }
 
     @Override

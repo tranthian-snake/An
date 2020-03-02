@@ -11,11 +11,13 @@ package JP04;
  */
 public class testMyPoint {
     public static void main(String[] args) {
-        MyPoint m1=new MyPoint(4,6);
-        System.out.println(m1.toString());
+        MyPoint mp=new MyPoint();
+        MyPoint mp1=new MyPoint(4,6);
+        System.out.println(mp.toString());
+        System.out.println(mp1.toString());
         
-        m1.setXY(6, 9);
-        System.out.println(m1.toString());
-        System.out.println("Distance="+m1.distance(6, 4));
+        mp1.setXY(6, 9);
+        System.out.println(mp1.toString());
+        System.out.println("Distance="+mp1.distance(6, 4));
     }
 }

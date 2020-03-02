@@ -14,7 +14,66 @@ public class MyCircle {
     private int radius;
     
     public MyCircle(){
-        center=(0,0);
+        center= new MyPoint(0,0);
+        radius=1;
+    }
+    public MyCircle(int x, int y, int radius){
+        center= new MyPoint(x,y);
+        this.radius=radius;
+    }
+    public MyCircle(MyPoint center, int radius){
+        this.center=center;
+        this.radius=radius;
+    }
+    public int getRadius(){
+        return radius;
+    }
+    public void setRadius(int radius){
+        this.radius=radius;
+    }
+    public MyPoint getCenter(){
+        return center;
+    }
+    public void setCenter(MyPoint center){
+        this.center=center;
+    }
+    public int getCenterX(){
+        return center.getX();
+    }
+    public void setCenterX(int x){
+        center.x=x;
+    }
+    public int getCenterY(){
+        return center.getY();
+    }
+    public void setCenterY(int y){
+       center.y=y;
+    }
+    /**
+     * public int[2] getCenterXY(){
         
     }
+     */
+    
+    public void setCenterXY(int x, int y){
+        center.x=x;
+        center.y=y;
+    }
+
+    @Override
+    public String toString() {
+        return "MyCircle[" + "center=" + center + ", radius=" + radius + ']';
+    }
+    public double getArea(){
+        return radius*radius*Math.PI;
+    }
+    public double getCircumference(){
+        return 2*radius*Math.PI;
+    }
+    /**
+     * public double distance(MyCircle another){
+        
+    }
+     */
+    
 }

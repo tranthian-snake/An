@@ -43,15 +43,16 @@ public class Account2 {
     public String getCustomername(){
         return customer.getName();
     }
-    public Account2 deposit(double amount){
+    public double deposit(double amount){
         return this.balance=balance+amount;
     }
-    public Account2 withdrawn(double amount){
+    public double withdrawn(double amount){
         if(balance>=amount){
             return this.balance=amount-balance;
         }else{
             System.out.println("amount withdrawn exceeds the current balance!");
         }
+        return balance;
     }
     
 }

@@ -49,11 +49,12 @@ public class MyCircle {
     public void setCenterY(int y){
        center.y=y;
     }
-    /**
-     * public int[2] getCenterXY(){
-        
+    public int[] getCenterXY(){
+        int[] centerxy= new int[2];
+        centerxy[0]= this.getCenterX();
+        centerxy[1]= this.getCenterY();
+        return centerxy;
     }
-     */
     
     public void setCenterXY(int x, int y){
         center.x=x;

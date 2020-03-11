@@ -16,10 +16,14 @@ public class testShape {
         System.out.println("Area is: "+ s1.getArea());
         System.out.println("Perimeter is: "+ s1.getPerimeter());
         
+        System.out.println("");
+        
         Shape s2= new Rectangle();
         System.out.println(s2.toString());
         System.out.println("Area is: "+ s2.getArea());
         System.out.println("Perimeter is: "+ s2.getPerimeter());
+        
+        System.out.println("");
         
         Shape s3= new Square();
         System.out.println(s3.toString());

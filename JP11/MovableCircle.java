@@ -18,10 +18,6 @@ public class MovableCircle implements Movable{
     }
 
     @Override
-    public String toString() {
-        return "MovableCircle[" + "radius=" + radius + ", center=" + center + ']';
-    }
-    @Override
     public void moveUp(){
         center.y-=center.ySpeed;
     }
@@ -37,5 +33,11 @@ public class MovableCircle implements Movable{
     public void moveRight(){
         center.x+=center.xSpeed;
     }
+    
+    @Override
+    public String toString() {
+        return "MovableCircle[" + "radius=" + radius + ", center=" + center + ']';
+    }
+    
     
 }

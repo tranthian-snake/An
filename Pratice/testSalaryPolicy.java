@@ -5,12 +5,18 @@
  */
 package Pratice;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Tran Thi An
  */
 public class testSalaryPolicy {
     public static void main(String[] args) {
+        int baseSalary;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter base salary: ");
+        baseSalary= scanner.nextInt();
         
         EmployeeFullTime e1= new  EmployeeFullTime(34.45f);
         System.out.println(e1.toString());
@@ -19,6 +25,7 @@ public class testSalaryPolicy {
         EmployeePartime e2= new  EmployeePartime(36.6f);
         System.out.println(e2.toString());
         System.out.println("Salary is: "+e2.getSalary());
+        
     }
     
 }

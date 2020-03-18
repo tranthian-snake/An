@@ -24,7 +24,13 @@ public class Temprature {
 
             average=sum/array.length;
             System.out.printf("Average is: %.2f%n", average);
-
+            int y=0;
+        for(int i=0;i<array.length;i++){
+            if(array[i]>average) {
+                y++;
+            }
+        }
+        System.out.println("Have "+y+" days higher than average");
     }
 
  }

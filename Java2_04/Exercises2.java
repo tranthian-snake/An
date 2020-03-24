@@ -81,7 +81,7 @@ public class Exercises2 {
              */
 
             String priceSelect= "select * from  products where UnitPrice=6.0000";
-            System.out.println("\n"+"3.The SQL statement is: "+ priceSelect);
+            System.out.println("\n"+"4.The SQL statement is: "+ priceSelect);
             ResultSet prset =stmt.executeQuery(priceSelect);
             System.out.println("The records selected are:");
             while(prset.next()){
@@ -102,7 +102,7 @@ public class Exercises2 {
              */
 
             String orderSelect= "select * from  orders";
-            System.out.println("\n"+"3.The SQL statement is: "+ orderSelect);
+            System.out.println("\n"+"5.The SQL statement is: "+ orderSelect);
             ResultSet oset =stmt.executeQuery(orderSelect);
             System.out.println("The records selected are:");
             if(oset.next()){

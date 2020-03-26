@@ -8,4 +8,7 @@ public class Contact {
         this.name=name;
         this.phone=phone;
     }
+    public void setName(String name){
+        this.name=name;
+    }
 }

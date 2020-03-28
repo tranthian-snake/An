@@ -3,58 +3,63 @@ package Java2_06.giftview;
 import Java2_06.giftcontroller.GiftController;
 import Java2_06.giftmodel.Gift;
 
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class GiftShop {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Gift gift = new Gift();
+       ArrayList<Gift> gift = new ArrayList<>();
 
         int n;
         System.out.println("0 - to shutdown" +
-                "\n 1 - Hien thi san pham" +
-                "\n 2 - Nhap them san pham" +
-                "\n 3 - Xoa san pham" +
-                "\n 4 - Moi lua chon"
+                "\n 1 - to print gift" +
+                "\n 2 - to add a new gift" +
+                "\n 3 - to remove an existing gift" +
+                "\n 4 - to print a list of available actions."+
+                "\n Choose your action:\n"
         );
-        GiftController gc = new GiftController();
+        GiftController controller = new GiftController();
+
+
+        int number;
 
         do {
             do {
-                System.out.println(" ");
-                System.out.print("Nhap vao luc chon : ");
-                n = scanner.nextInt();
+                System.out.print("Enter action: ");
+                Scanner scanner = new Scanner(System.in);
+                number = scanner.nextInt();
 
-            } while (n < 0 || n > 4);
-            switch (n) {
+            } while (number < 0 || number > 4);
+            switch (number) {
+                case 0:
+                    break;
                 case 1:
-                    System.out.println("Hien thi danh sach :");
-                    gc.giftSelect();
+                    controller.giftSelect();
                     break;
 
                 case 2:
-                    System.out.println("Them san pham :");
-                    gc.giftInsert();
+                    controller.giftInsert();
                     break;
 
                 case 3:
-                    System.out.println("Xoa san pham :");
-                    gc.giftDelete();
+                    controller.giftDelete();
                     break;
 
                 case 4:
                     System.out.println("0 - to shutdown" +
-                            "\n 1 - Hien thi san pham" +
-                            "\n 2 - Nhap them san pham" +
-                            "\n 3 - Xoa san pham" +
-                            "\n 4 - Moi lua chon"
+                            "\n 1 - to print gift" +
+                            "\n 2 - to add a new gift" +
+                            "\n 3 - to remove an existing gift" +
+                            "\n 4 - to print a list of available actions."+
+                            "\n Choose your action:\n"
                     );
                     break;
 
-                case 0:
-                    break;
             }
-        }while (n != 0);
+        }while (number != 0);
     }
 }

@@ -18,10 +18,10 @@ public class BookManager {
 
             System.out.print("Enter id: ");
             String id = scanner.next();
-            System.out.print("Enter name: ");
-            String name = scanner.next();
             System.out.print("Enter price: ");
             double price= scanner.nextDouble();
+            System.out.print("Enter name: ");
+            String name = scanner.next();
             System.out.print("Enter qty: ");
             int qty = scanner.nextInt();
             System.out.print("Enter author: ");

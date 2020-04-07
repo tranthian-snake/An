@@ -36,7 +36,9 @@ public class MainMethod {
 
                 Statement stmt= conn.createStatement();
         ) {
+            System.out.println("List not saved: ");
             System.out.println(students);
+            System.out.println("List saved: ");
             ResultSet rset = stmt.executeQuery("select * from Student");
             ResultSetMetaData rsetMD=  rset.getMetaData();
 

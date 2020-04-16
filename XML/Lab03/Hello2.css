@@ -1,0 +1,57 @@
+greeting{
+    display: block;
+    font-size: 50pt;
+    color: red;
+    width: 600pt;
+    margin-left: 20pt;
+    margin-top: 30pt;
+}
+.ans extension{
+    display: block;
+    color: blue;
+    font-size: 35pt; 
+    width: 100pt;
+    margin-left: 20pt;
+}
+[class=ans] extension{
+    display: block;
+    color: blue;
+    font-size: 35pt; 
+    width: 100pt;
+    margin-left: 20pt;
+}
+.ans question{
+    display: block;
+    color: black;
+    font-size: 50pt; 
+    width: 600pt;
+    margin-bottom: 200pt;
+    margin-left: 20pt;
+}
+[class=ans] question{
+    display: block;
+    color: black;
+    font-size: 50pt; 
+    border: 50pt blue;
+    width: 600pt;
+    margin-bottom: 200pt;
+    margin-left: 20pt;
+}
+xsampdoc .box{
+    display: block;
+    width: 250pt;
+    height: 200pt;
+    overflow: scroll;
+    margin-top: 50pt;
+    margin-left: 70pt;
+    border: 5pt solid blue;
+}
+xsampdoc [class=box]{
+    display: block;
+    width: 250pt;
+    height: 200pt;
+    overflow: scroll;
+    margin-top: 50pt;
+    margin-left: 70pt;
+    border: 5pt solid blue;
+}

@@ -1,0 +1,36 @@
+greeting{
+    display: block;
+    font-size: 50pt;
+    color: red;
+    margin-top: 120pt;
+    margin-left: 350pt;
+}
+greeting extension{
+    display: block;
+    color: black;
+    font-size: 45pt;
+}
+.ans extension{
+    display: block;
+    color: blue;
+    font-size: 35pt; 
+    margin-left: 350pt; 
+}
+[class=ans] extension{
+    display: block;
+    color: blue;
+    font-size: 35pt; 
+    margin-left: 350pt; 
+}
+.ans question{
+    display: block;
+    color: black;
+    font-size: 50pt; 
+    margin-left: 350pt; 
+}
+[class=ans] question{
+    display: block;
+    color: black;
+    font-size: 50pt; 
+    margin-left: 350pt;
+}

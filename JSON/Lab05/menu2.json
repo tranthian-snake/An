@@ -1,0 +1,54 @@
+{
+    "menu":[
+        {
+            "header":"Adobe SVG Viewer",
+            "item":[
+                ["Open", "Open New"],
+                {
+                    "action":["Open", "OpenNew"],
+                    "id":["Open", "OpenNew"]
+                }
+            ]
+        },
+        "separator",
+        {
+            "item":[
+                ["Zoom In", "Zoom Out", "Original View"],
+                {
+                    "action":["ZoomIn", "ZoomOut", "OriginalView"],
+                    "id":["ZoomIn", "ZoomOut", "OriginalView"]
+                }
+            ]
+        }, 
+        "separator",
+        {
+            "item":[
+                ["Quality", "Pause", "Mute"],
+                {
+                    "action":["Quality", "Pause", "Mute"],
+                    "id":["Quality", "Pause", "Mute"]
+                }
+            ]
+        }, 
+        "separator",
+        {
+            "item":[
+                ["Find...", "Find Again", "Copy", "Copy Again", "Copy SVG", "View SVG", "View Sourse", "Save As"],
+                {
+                    "action":["Find", "FindAgain", "Copy", "CopyAgain", "CopySVG", "ViewSVG", "ViewSourse", "SaveAs"],
+                    "id":["Find", "FindAgain", "Copy", "CopyAgain", "CopySVG", "ViewSVG", "ViewSourse", "SaveAs"]
+                }
+            ]
+        },
+        "separator",
+        {
+            "item":[
+                ["Help", "About Abode CVG Viewer..."],
+                {
+                    "action":["Help", "About"],
+                    "id":["Help", "About"]
+                }
+            ]
+        } 
+    ]
+}

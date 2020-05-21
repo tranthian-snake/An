@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 
 class Atom
 {
@@ -26,34 +24,34 @@ class Atom
     {
         Console.WriteLine("Atomic information");
         Console.WriteLine("==================");
-        do
-        {
-            Console.Write("Enter atomic number:");
-            atomicnumber = Convert.ToInt32(Console.ReadLine());
-            if (atomicnumber == 0)
+            do
             {
-                atom.display(atom);
-                return false;
+                Console.Write("Enter atomic number:");
+                atomicnumber = Convert.ToInt32(Console.ReadLine());
+                if (atomicnumber == 0)
+                {
+                    atom.display(atom);
+                    Console.ReadLine();
+                    return false;
+                }
+            } while (atomicnumber == 0);
+            {
+                Console.Write("Enter symbol:");
+                symbol = Convert.ToString(Console.ReadLine());
+                Console.Write("Enter full name:");
+                fullnamne = Convert.ToString(Console.ReadLine());
+                Console.Write("Enter atomic weight:");
+                atomicweight = Convert.ToDouble(Console.ReadLine());
+                atom = new Atom(atomicnumber, symbol, fullnamne, atomicweight);
+                return true;
             }
-        } while (atomicnumber == 0);
-        {
-            Console.Write("Enter symbol:");
-            symbol = Convert.ToString(Console.ReadLine());
-            Console.Write("Enter full name:");
-            fullnamne = Convert.ToString(Console.ReadLine());
-            Console.Write("Enter atomic weight:");
-            atomicweight = Convert.ToDouble(Console.ReadLine());
-            atom = new Atom(atomicnumber, symbol, fullnamne, atomicweight);
-            Console.ReadLine();
-            return true;
-        }
     }
 
     public void display(Atom atom)
     {
-        Console.Write("No  Sym  Name  Weight:");
-        Console.Write("-------------------------------------------------------");
-        Console.Write(atom);
+        Console.WriteLine("No   Sym   Name   Weight:");
+        Console.WriteLine("-------------------------------------------------------");
+        Console.WriteLine(atom.atomicnumber+"    "+ atom.symbol+"    "+ atom.fullnamne+ "    " + atom.atomicweight);
 
     }
 }

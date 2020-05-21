@@ -24,17 +24,11 @@ class Atom
     {
         Console.WriteLine("Atomic information");
         Console.WriteLine("==================");
-            do
-            {
-                Console.Write("Enter atomic number:");
-                atomicnumber = Convert.ToInt32(Console.ReadLine());
-                if (atomicnumber == 0)
-                {
-                    atom.display(atom);
-                    Console.ReadLine();
-                    return false;
-                }
-            } while (atomicnumber == 0);
+        do
+        {
+            Console.Write("Enter atomic number:");
+            atomicnumber = Convert.ToInt32(Console.ReadLine());
+            if (atomicnumber != 0)
             {
                 Console.Write("Enter symbol:");
                 symbol = Convert.ToString(Console.ReadLine());
@@ -42,9 +36,16 @@ class Atom
                 fullnamne = Convert.ToString(Console.ReadLine());
                 Console.Write("Enter atomic weight:");
                 atomicweight = Convert.ToDouble(Console.ReadLine());
-                atom = new Atom(atomicnumber, symbol, fullnamne, atomicweight);
-                return true;
+                Atom atom = new Atom(atomicnumber, symbol, fullnamne, atomicweight);
             }
+            else
+            {
+                atom.display(atom);
+                Console.ReadLine();
+                
+            }
+        } while (atomicnumber != 0);
+            return false;
     }
 
     public void display(Atom atom)

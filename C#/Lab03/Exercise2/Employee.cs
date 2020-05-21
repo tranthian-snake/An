@@ -18,6 +18,10 @@ class Employee
 
     public override string ToString()
     {
-        return this.EmpId + " " + this.EmpName + " " + this.DeptName;
+        return "Employee has: first name is " + firstName + ", last name is " + lastName + ", address is " + address + ", sin is " + sin + ", salary is " + salary;
+    }
+    public double CalculateBonus(double percentage)
+    {
+        return salary *(percentage/100);
     }
 }

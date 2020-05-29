@@ -23,7 +23,7 @@ namespace Firstly
                 string producer= Console.ReadLine();
                 Book book = new Book(id, name, price, producer);
                 arrayProduct[i] = book;
-                sum = sum + price;
+                sum = sum + book.computeTax();
             }
             for (int i = 3; i < 6; i++)
             {
@@ -35,11 +35,11 @@ namespace Firstly
                 double price = Console.Read();
                 Console.Write("Enter mobile phone producer: ");
                 string producer = Console.ReadLine();
-               MobilePhone mobilePhone = new MobilePhone(id, name, price, producer);
+                MobilePhone mobilePhone = new MobilePhone(id, name, price, producer);
                 arrayProduct[i] = mobilePhone;
-                sum = sum + price;
+                sum = sum + mobilePhone.computeTax();
             }
-            Console.WriteLine(arrayProduct);
+            Console.WriteLine(arrayProduct[]);
             Console.WriteLine("compute total tax of books and mobile phones is: " + sum);
         }
 

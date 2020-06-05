@@ -1,8 +1,9 @@
-<htnl>
-    <body>
-    <?php
-    $name = $first_name ?? "Guest";
-    echo $name;
-    ?>
-    </body>
-</htnl>
+<?php
+$Fname = "John";
+$Lname = "Smith";
+$name = & $Fname;
+echo $name;
+echo "<br>";
+echo $Lname;
+echo "<br>";
+?>

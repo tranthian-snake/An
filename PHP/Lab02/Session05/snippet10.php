@@ -1,16 +1,12 @@
 <?php
-srand();
-function random_numbers($k){
-    for ($i=0; $i< $k; $i++){
-        $r = rand(1,10);
-        yield $r;
-    }
-    return -1;
+$var1;
+function sum(){
+    static $var1 = 9;
+    $var2 = $var1 + 12;
+
+    echo "The value of the variable is : $var1<br>";
+    echo "The addition value of 9 + 12 = ";
+    echo "$var2<br>";
 }
-$rns = random_numbers(10);
-foreach ($rns as $r){
-    echo "$r";
-    echo '</br>';
-}
-echo $rns->getReturn() . PHP_EOL;
+sum();
 ?>

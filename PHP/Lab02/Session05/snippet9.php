@@ -1,11 +1,11 @@
 <?php
-class Greetings {
-    private $word = "Hello";
+$var1 = 4;
+$var2 = 15;
+function multiply(){
+    global $var1, $var2;
+    $var2 = $var1 * $var2;
+    echo $var2;
 }
-$closure = function($whom){
-    echo "$this -> word $whom\n";
-};
-$obj = new Greetings();
-$closure-> call($obj, 'John');
-$closure-> call($obj, 'Kevin');
+echo "The multiplication value of 4 * 15 =";
+multiply();
 ?>

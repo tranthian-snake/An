@@ -1,4 +1,3 @@
 <?php
-$path = '/foo/bar/bat/baz';
-echo dirname($path,2);
+echo $_SERVER['SERVER_NAME'];
 ?>

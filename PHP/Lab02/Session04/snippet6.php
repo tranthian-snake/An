@@ -1,18 +1,9 @@
 <?php
-function e(){
-    echo "This is e() \n";
-}
-function f(){
-    echo "This is f() \n";
-    return e;
-}
-function g(){
-    echo "This is g() \n";
-    return f;
-};
-g();
-echo "**********\n";
-g() ();
-echo "**********\n";
-g() () ();
+$A = $_GET['Asia'];
+$B = $_GET['Australia'];
+$C = $_GET['Europe'];
+$Name = $_GET['continent'];
+echo "<br>";
+echo "Continents:<br> <br>Asia<br> Australia <br> Europe <br> <br>";
+echo "The continent you have selected is : $Name";
 ?>

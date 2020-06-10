@@ -1,8 +1,4 @@
 <?php
-    $paper[] = "Copier";    //tao mang
-    $paper[] = "Inkiet";
-    $paper[] = "Laser";
-    $paper[] = "Photo";
-
-    print_r($paper) ;
+$var1 = 21- 4*4;
+echo "The result of 21-4*4 is :  $var1.";
 ?>

@@ -1,8 +1,11 @@
+<html>
+<body>
 <?php
-    $paper[] = "Copier";    //tao mang
-    $paper[] = "Inkiet";
-    $paper[] = "Laser";
-    $paper[] = "Photo";
-
-    print_r($paper) ;
+$a = 60;
+$b = 60;
+$c = 60;
+if($a + $b + $c == 180)
+    echo "the triangle is valid.";
 ?>
+</body>
+</html>

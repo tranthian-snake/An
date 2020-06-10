@@ -1,9 +1,6 @@
 <?php
- $paper = array("Copier", "Inkjet","Laser", "Photo");
- $j =0;
-
- foreach($paper as $item){
-     echo "$j: $item<br>";
-     ++$j;
- }
+$a = 100;
+echo "The value of A is $a.<br>";
+--$a;
+echo "The decremented value of A is $a.";
  ?>

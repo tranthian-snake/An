@@ -1,9 +1,9 @@
 <?php
- $paper = array("Copier", "Inkjet","Laser", "Photo");
- $j =0;
-
- foreach($paper as $item){
-     echo "$j: $item<br>";
-     ++$j;
- }
- ?>
+$day1 = "Saturday";
+if(($day1 == "Saturday") || ($day1 == "Sunday")){
+    echo "$day1 is a holiday.";
+}
+else{
+    echo "$day1 is a working day.";
+}
+?>

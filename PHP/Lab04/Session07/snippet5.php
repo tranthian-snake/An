@@ -1,9 +1,6 @@
-<?php
- $paper = array("Copier", "Inkjet","Laser", "Photo");
- $j =0;
-
- foreach($paper as $item){
-     echo "$j: $item<br>";
-     ++$j;
- }
- ?>
+<?php declare(strict_types = 1);
+function test1(int $a){
+    echo $a;
+}
+test1((int)true);
+?>

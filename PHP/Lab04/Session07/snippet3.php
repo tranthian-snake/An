@@ -1,11 +1,10 @@
+<html>
+<body>
 <?php
-$paper['copier'] = "Copier & Multipurposse <br>" ;
-$paper['inkjet'] = "Inkjet printer<br>";
-$paper['laser'] = "Laser Printer<br>";
-$paper['photo'] = "Photographic Paper<br>";
-
-echo $paper['copier'];
-echo $paper['inkjet'];
-echo $paper['laser'];
-echo $paper['photo'];
+function test1(bool $a){
+    echo $a;
+}
+test1(10.34);
 ?>
+</body>
+</html>

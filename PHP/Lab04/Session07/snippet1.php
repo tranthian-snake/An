@@ -1,8 +1,6 @@
 <?php
-    $paper[] = "Copier";    //tao mang
-    $paper[] = "Inkiet";
-    $paper[] = "Laser";
-    $paper[] = "Photo";
-
-    print_r($paper) ;
+function test1(int $x){
+    echo 'integer $x = '.$x;
+}
+test1(10.124);
 ?>

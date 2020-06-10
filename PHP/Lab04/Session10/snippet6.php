@@ -1,10 +1,20 @@
 <?php
-$paper = array('copier' => "Copier & Multipurpose",
-                'inkjet' => "Inkjet Printer",
-                'laser' => "Laser Printer",
-                'photo' => "Photographic Paper");
-
-foreach($paper as $itemm => $description )
-    echo "$itemm: $description<br>";
-
-?>
+$sal = $_GET['sal'];
+echo "Total Sales : $";
+echo $sal;
+echo "<br>";
+if($sal > 50000){
+    $comm = $sal * .10;
+    echo "Commission : $$comm";;
+    echo "<br>";
+}
+else if($sal > 20000 and $sal <= 50000){
+    $comm = $sal * .07;
+    echo "Commission : $$comm";
+    echo "<br>";
+}
+else if($sal < 20000){
+    $comm = $sal * .05;
+    echo "Commission : $$comm";
+    echo "<br>";
+}

@@ -1,11 +1,12 @@
 <?php
-$paper['copier'] = "Copier & Multipurposse <br>" ;
-$paper['inkjet'] = "Inkjet printer<br>";
-$paper['laser'] = "Laser Printer<br>";
-$paper['photo'] = "Photographic Paper<br>";
-
-echo $paper['copier'];
-echo $paper['inkjet'];
-echo $paper['laser'];
-echo $paper['photo'];
-?>
+$sal = $_GET['sal'];
+echo "salary before bonus : $";
+echo $sal;
+echo "<br>";
+if ($sal > 850){
+    $bonus = $sal * .1;
+    echo "Bonus : $$bonus";
+    echo "<br>";
+    $sal = $sal + $bonus;
+    echo "Total Salary : $sal";
+}

@@ -1,9 +1,4 @@
 <?php
- $paper = array("Copier", "Inkjet","Laser", "Photo");
- $j =0;
-
- foreach($paper as $item){
-     echo "$j: $item<br>";
-     ++$j;
- }
+echo "The answer of 3215 is:<br>";
+echo 3215;
  ?>

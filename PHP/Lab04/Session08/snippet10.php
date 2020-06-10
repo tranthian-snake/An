@@ -1,30 +1,9 @@
 <?php
-$products= array(
-
-    'paper' => array(
-        'copier' => "Copier & Multipurpose",
-        'inkjet' => "Inkjet Printer",
-        'laser'  => "Laser Printer",
-        'photo'  => "Photographic Paper"
-    ),
-
-    'pens' => array(
-        'ball'  => "Ball Point",
-        'hilite'=> "Hightlighters",
-        'marker'=> "Markers"
-    ),
-    'misc' => array(
-        'tape' => "Sticky Tape",
-        'glue' => "Adhesivers",
-        'clips'=> "Paperclips"
-    )
-);
-
-echo "<pre>";
-
-foreach ($products as $section => $items)
-    foreach ($items as $key => $value)
-        echo "$section:\t $key:\t ($value)<br>";
-
-echo "<pre>";
+$a = 15;
+echo "pre increment value of A is ".++$a."<br>";
+echo "Post increment value of A is ".$a++."<br>";
+echo "Value of A post increment is ".$a."<br>";
+echo "Pre decrement value of A is ".--$a."<br>";
+echo "Post decrement value of A is ".$a--."<br>";
+echo "Value of A post decrement is ".$a--."<br>";
 ?>

@@ -1,4 +1,6 @@
 <?php
-$item= explode(' ', "This is a sentence with save");
-print_r($item)
+$a = "welcome";
+$b = "friends!";
+$c = $a.$b;
+echo "The concatenated string is $c";
 ?>

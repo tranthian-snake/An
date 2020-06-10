@@ -1,8 +1,6 @@
 <?php
-    $paper[] = "Copier";    //tao mang
-    $paper[] = "Inkiet";
-    $paper[] = "Laser";
-    $paper[] = "Photo";
-
-    print_r($paper) ;
+$a = $_GET['n1text'];
+$b = $_GET['n2text'];
+$c = $a * $b;
+echo "The product of two numbers is $c.";
 ?>

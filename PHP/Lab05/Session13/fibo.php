@@ -2,7 +2,7 @@
 $fib1=0;
 $fib2=1;
 $sum=0;
-echo "The fibonacci series : <BR><BR>";
+echo "The Fibonacci series : <BR><BR>";
 echo "$fib1<BR>";
 while ($sum <= 15)
 {

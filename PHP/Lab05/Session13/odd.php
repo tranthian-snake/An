@@ -5,5 +5,5 @@ do{
     $num=$i*2-1;
     echo "<BR>$num";
     $i--;
-}while($i>+1);
+}while($i>=1);
 ?>

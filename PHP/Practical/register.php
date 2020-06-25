@@ -20,13 +20,6 @@ $_SESSION['username'] = "Admin";
                 } else {
                     mysqli_stmt_execute($stmt);
                     $result = mysqli_stmt_get_result($stmt);
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        echo '<a href="#">
-                  <h3>'.$row["fullname"].'</h3>
-                  <p>'.$row["username"].'</p>
-                  <p>'.$row["email"].'</p>
-                </a>';
-                    }
                 }
                 ?>
 

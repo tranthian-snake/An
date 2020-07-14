@@ -50,7 +50,7 @@ Route::get('update', function (){
 
 Route::get('find', function (){
     $products=Product::where('id','>=',1)
-        ->where('name', 'like', '%o%')
+        ->where('name', 'like', '%a%')
         ->orderBy('id', 'desc')
         ->take(10)
         ->get();

@@ -34,6 +34,7 @@ Route::post('/upload', function (Request $request){
     }
 
     $product = new Product;
+    $product->id = $request ->id;
     $product->name = $request ->name;
     $product->price= $request ->price;
     $product->image= $request ->image;
@@ -65,9 +66,9 @@ Route::get('find', function (){
 
 });
 
-Route::get('delete', function (){
-    $deleted=DB::delete('delete from products where id = ?',[3]);
-    return $deleted;
+Route::get('delete/{delete}', function ($id){
+    $deleted=DB::delete('delete from products where id = ?',[$id]);
+    return redirect('/');
 
 });
 

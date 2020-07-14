@@ -19,14 +19,14 @@
                     @foreach($products as $product)
                         <tr>
                             <td class="table-name col-sm-4">
-                                <div><h3>{{$product->name}}</h3></div>
+                                <div><h4>{{$product->name}}</h4></div>
                             </td>
                             <td class="table-price col-sm-4">
                                 <div><p>{{$product->price}}</p></div>
                             </td>
                             <td class="table-img col-sm-4">
 
-                                <img src="{{$product->image}}"/>
+                                <img src="img/{{$product->image}}" width="70px" height="50px"/>
                             </td>
 
                         </tr>
@@ -40,7 +40,7 @@
             {{csrf_field()}}
 
             <div class="form-group">
-                <label for="product" class="col-sm-3 control-label">Product</label>
+                <label for="product" class="col-sm-3 control-label"><h2>Product</h2></label>
                 <div class="col-sm-6">
                     <input type="text" name="name" placeholder="Name..."><br><br>
                     <input type="text" name="price" placeholder="Price..."><br><br>

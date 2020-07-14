@@ -11,6 +11,7 @@
             <div class="product-container">
                 <table class="table table-striped product-table">
                     <thead>
+                    <td class="col-sm-4">Id</td>
                     <td class="col-sm-4">Name</td>
                     <td class="col-sm-4">Price</td>
                     <td class="col-sm-4">Image</td>
@@ -18,6 +19,9 @@
                     <tbody>
                     @foreach($products as $product)
                         <tr>
+                            <td class="table-name col-sm-4">
+                                <div>{{$product->id}}</div>
+                            </td>
                             <td class="table-name col-sm-4">
                                 <div><h4>{{$product->name}}</h4></div>
                             </td>

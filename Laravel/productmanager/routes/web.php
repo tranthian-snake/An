@@ -66,7 +66,7 @@ Route::get('find', function (){
 });
 
 Route::get('delete', function (){
-    $deleted=DB::delete('delete from posts where id = ?',[3]);
+    $deleted=DB::delete('delete from products where id = ?',[3]);
     return $deleted;
 
 });

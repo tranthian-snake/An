@@ -55,12 +55,12 @@ Route::get('find', function (){
         ->take(10)
         ->get();
     foreach ($products as $p) {
-        echo $p->name;
+        echo "<div>" . $p->name;
         echo ", price: ";
         echo $p->price;
-        echo " ";
-        echo $p->image;
         echo "<br>";
+        echo  '<img src="img/' . $p->image . '" width="120px" height="90px"/>';
+        echo "</div>";
     }
 
 });

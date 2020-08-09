@@ -34,6 +34,7 @@ Route::post('/upload', function (Request $request){
     }
 
     $product = new Product;
+    $product->id = $request ->id;
     $product->name = $request ->name;
     $product->price= $request ->price;
     $product->image= $request ->image;
@@ -50,24 +51,24 @@ Route::get('update', function (){
 
 Route::get('find', function (){
     $products=Product::where('id','>=',1)
-        ->where('name', 'like', '%o%')
+        ->where('name', 'like', '%a%')
         ->orderBy('id', 'desc')
         ->take(10)
         ->get();
     foreach ($products as $p) {
-        echo $p->name;
+        echo "<div>" . $p->name;
         echo ", price: ";
         echo $p->price;
-        echo " ";
-        echo $p->image;
         echo "<br>";
+        echo  '<img src="img/' . $p->image . '" width="120px" height="90px"/>';
+        echo "</div>";
     }
 
 });
 
-Route::get('delete', function (){
-    $deleted=DB::delete('delete from posts where id = ?',[3]);
-    return $deleted;
+Route::get('delete/{delete}', function ($id){
+    $deleted=DB::delete('delete from products where id = ?',[$id]);
+    return redirect('/');
 
 });
 

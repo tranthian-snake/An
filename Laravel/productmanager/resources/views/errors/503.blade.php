@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Be right back.</title>
+        <title>Product Manager</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -22,7 +22,6 @@
 
             .container {
                 text-align: center;
-                display: table-cell;
                 vertical-align: middle;
             }
 
@@ -31,7 +30,7 @@
                 display: inline-block;
             }
 
-            .title {
+            .title, h2 {
                 font-size: 72px;
                 margin-bottom: 40px;
             }
@@ -40,7 +39,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Be right back.</div>
+                <div class="title">Product Manager</div>
             </div>
         </div>
     </body>

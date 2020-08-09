@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A</title>
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap3.3.7/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/fontawesome/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="css/A.css"/>
+</head>
+<body>
+<header>
+    <div class="col-xs-12 ">
+        <div class="header-left col-xs-4">
+            <img src="images/logo.png"/>
+        </div>
+        <div class="col-xs-4">
+
+        </div>
+        <div class="header-right col-xs-4">
+            <div class="box-search">
+                <form action="#" method="get">
+                    <input type="text" name="search" placeholder="Search..."/>
+                    <button class="go" type="submit">go</button>
+                    <style>
+                        .box-search{
+                            float: right;
+                            margin-top: 100px;
+                        }
+                        .go{
+                            margin-left: -5px;
+                        }
+                    </style>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <script>
+        function validateform(){
+            var name=document.myform.name.value;
+
+            if (name==null || name==""){
+                alert("Name can't be blank");
+                return false;
+            }
+        }
+    </script>
+    <body>
+    <form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" >
+        Name: <input type="text" name="name"><br/>
+
+        <input type="submit" value="register">
+    </form>
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <div class="col-xs-3 menu-small">
+                <ul>
+                    <li>Home</li>
+                    <li>Supscipe</li>
+                    <li>Library</li>
+                    <li>Listen</li>
+                    <li>Disenable</li>
+                    <li>Distruction</li>
+                </ul>
+            </div>
+            <div class="col-xs-6">
+                <img src="images/bakery.jpg"/>
+            </div>
+            <div class="col-xs-3">
+                <figure>
+<!--                    chèn nhạc-->
+                    <audio controls loop>
+                        <source src="" type="audio/mp3"/>
+                    </audio>
+<!--                    chèn ghi chú dưới ảnh-->
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <div class="col-xs-12">
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,231 @@
+.header{
+    height: 180px;
+    background-color: rgb(255, 209, 237);
+    border-bottom: 5px solid #951947;
+}
+.header-icon{
+    height: 120px;
+    float: top;
+    border-bottom: black 3px dashed;
+}
+.logo-name{
+    margin-left: 50px;
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+    width: 20%;
+}
+.name{
+    float: right;
+    width: 75%;
+    margin-top: -15px;
+}
+.icon{
+    float: right;
+    margin-top: 35px;
+}
+.icon li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    color: #951947;
+    font-size: 30px;
+}
+.icon li:hover{
+    color: #cc4185;
+}
+.icon li:focus{
+    color: #642140;
+}
+.header-icon h1{
+    color: #951947;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'McLaren', cursive;
+}
+.header-icon h3{
+    color: #951947;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'McLaren', cursive;
+}
+.icon-cake{
+    margin-top: 5px;
+}
+.fa-fire{
+    font-size: 30px;
+    color: #fec80f;
+    margin-left: 90px;
+}
+#dragon{
+}
+#fire{
+    margin-top: 30px;
+}
+.fa-dragon{
+    font-size: 50px;
+    color: #951947;
+    margin-right: 15px;
+}
+.fa-firefox{
+    color: #e2383e;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.header-text{
+    height: 60px;
+    margin-top: 15px;
+}
+.set{
+    margin-left: 25%;
+    margin-top: -40px;
+}
+.header-text li{
+    list-style: none;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    margin-right: 80px;
+    float: left;
+}
+.header-text a{
+    color: #db49a1;
+}
+.header-text a:hover{
+    color: #8b2f66;
+    text-decoration: none;
+}
+.header-text a:focus{
+    color: #602046;
+    text-decoration: none;
+}
+
+
+
+
+.container2{
+    margin-left: 180px;
+
+}
+.container3{
+    border: 1px solid #a5a5a5;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: #7e7e7e 2px 3px 2px;
+}
+.img_big{
+    margin-bottom: 40px;
+    height: 450px;
+    background-image: url("http://www.savourydays.com/wp-content/uploads/2018/11/c%C3%A1ch-l%C3%A0m-cupcake-s%E1%BB%AFa-kem-xo%C3%A0i-banner-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;}
+.write{
+    font-size: 60px;
+    color: black;
+}
+.container{
+    margin-bottom: 50px;
+}
+#tieude{
+    margin-top: 50px;
+    font-size: 28px;
+    border-bottom: 1px solid darkgrey;
+    color: black;
+}
+.b1{
+    font-size:18px ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text1{
+    color: #f47421;
+}
+.tieude2{
+    font-size: 24px;
+    color: #b92c28;
+    margin-bottom: 20px;
+}
+footer{
+
+    background-color: rgba(209, 79, 79, 0.46);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+footer ul{
+    margin-top: 20px;
+}
+footer li{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    float:left;
+    margin-left: 30px;
+    list-style: none;
+    magin-right:40px;
+}
+#logo1{
+    background: white;
+}
+.logo1{
+    margin-top: 50px;
+}
+
+.tieude1{
+    color: white;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 204px;
+}
+#box-bottom-left {
+    float: left;
+    margin-top: 45px;
+    color: white;
+    font-size: 20px;
+}
+.bottom{
+    margin-top: 45px;
+    font-size: 45px;
+    color: white;
+}
+.container4{
+    margin-top: 40px;
+
+    margin-right: 40px;
+    height:350px ;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/20160828/pngtree-Pink-Floral-Flower-Design-background-photo-289714.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.left {
+    border-bottom: 1px lightgray dotted;
+    border-top: 1px lightgray dotted;
+}
+.a1{
+    margin-top: 20px;
+}
+.a2{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #e32607;
+}
+.a3{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.a4{
+    margin-top: 10px;
+}
+.b2{
+    margin-left: 300px;
+}
+.b3{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.b4{
+    margin-right: 200px;
+}

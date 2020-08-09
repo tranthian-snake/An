@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo_Bootstrap</title>
+    <link rel="stylesheet" href="vendors/bootstrap3.3.7/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/demo_bootstrap.css"/>
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/nivoslider/themes/default/default.css">
+    <link rel="stylesheet" type="text/css" href="vendors/nivoslider/nivo-slider.css">
+
+</head>
+<body>
+
+
+
+
+<!--<div id="box">-->
+<!--    <div id="box1" class="col-md-8 col-xs-6">-->
+<!--       <div id="box3" class="col-md-6"></div>-->
+<!--        <div id="box4" class="col-md-6"></div>-->
+<!--    </div>-->
+<!--    <div id="box2" class="col-md-4 col-xs-6">-->
+<!--        Đây là box 2-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+<header class="col-xs-12">
+    <div class="container">
+        <a href="#" data-toggle="modal" data-target="#formlogin">Đăng nhập</a>
+        <div class="dropdown">
+            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown trigger
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li>Value 1</li>
+                <li>Value 2</li>
+                <li>Value 3</li>
+                <li>Value 4</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="col-xs-12">
+    <div class="container">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/pizza.jpg" >
+                <img src="images/Tiramisu.jpg">
+                <img src="images/Mochi.jpg">
+                <img src="images/Bánh%20Opera.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="col-xs-12">
+    <div class="container">
+        <div class="col-md-3">
+            Sidebar
+        </div>
+        <div class="col-md-9">
+            <table class="table table-hover table-striped table-bordered">
+                <thead>
+                <th>MSSV</th>
+                <th>Tên SV</th>
+                <th>Ngày sinh</th>
+                <th>Địa chỉ</th>
+                </thead>
+                <tbody class="text-center">
+                <tr class="danger">
+<!--                    class="danger" màu đỏ-->
+<!--                    có bao nhiêu <th></th> tì có bấy nhiêu <td></td>-->
+                    <td >#1</td>
+                    <td>Lê Văn Nam</td>
+                    <td>22/12/1999</td>
+                    <td>Hà Nội</td>
+                </tr>
+                <tr class="success">
+<!--                    class="success" là màu xanh lá cây-->
+                   <td>#2</td>
+                    <td>Nguyễn Văn Anh</td>
+                    <td>15/06/1999</td>
+                    <td>Hải Phòng</td>
+                </tr>
+                <tr class="info">
+<!--                    class="info" là màu xanh da trời-->
+                    <td>#3</td>
+                    <td>Mai Văn Trường</td>
+                    <td>09/8/1995</td>
+                    <td>Đà Nẵng</td>
+                <tr class="warning">
+                    <!--                    class="warning" là màu vàng-->
+                    <td>#4</td>
+                    <td>Hoàng Minh Dương</td>
+                    <td>28/03/1935</td>
+                    <td>Cà Mau</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="col-md-6">
+                <form method="get" action="#">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Fullname" name="fullname">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Telephone" name="telephone">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Address" name="address">
+                    </div>
+                    <div class="form-group">
+                        <select name="gender" class="form-control">
+                            <option value="1">Value 1</option>
+                            <option value="2">Value 2</option>
+                            <option value="3">Value 3</option>
+                        </select>
+                        <div class="radio">
+                            <label><input type="radio" name="r1" value="r1">Có</label>
+                            <label><input type="radio" name="r2" value="r2">Không</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="c1" value="c1">Đồng ý điều khoản</label>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+<!--                            primary: xanh dương-->
+                            <button class="btn btn-danger" type="submit">Reset</button>
+<!--                            danger: đỏ-->
+                            <button class="btn btn-warning" type="submit">Button</button>
+<!--                            warning: cam-->
+                            <button class="btn btn-default" type="submit">Default</button>
+<!--                           default: trắng-->
+                            <button class="btn btn-success" type="submit">Success</button>
+<!--                          success:  xanh lá cây-->
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="col-xs-12">
+    <div class="container">
+        <ul>
+            <li><i class="glyphicon glyphicon-home" ></i></li>
+            <li><i class="glyphicon glyphicon-heart" ></i></li>
+            <li><i class="glyphicon glyphicon-qrcode"></i> </li>
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+        </ul>
+    </div>
+</footer>
+<div class="modal fade" id="formlogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Đăng nhập</h3>
+            </div>
+        </div>
+        <form action="#" method="post">
+            <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="Password"/>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger" >Đăng nhập</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+
+        <div>
+        </div>
+    </div>
+</div>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">Home</div>
+    <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
+    <div role="tabpanel" class="tab-pane" id="messages">Messages</div>
+    <div role="tabpanel" class="tab-pane" id="settings">Settings</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="vendors/bootstrap3.3.7/js/bootstrap.js"></script>
+<script type="text/javascript" src="vendors/nivoslider/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $("#slider").nivoSlider({
+        controlNav:true,
+        // dấu chấm dưới slide
+        directionNav:true
+        // dấu mũi tên 2 bên
+    });
+</script>
+
+</body>
+</html>

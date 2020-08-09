@@ -1,0 +1,125 @@
+header{}
+#top_left{
+    float: left;
+    margin-top: 10px;
+}
+h5{
+    float: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+#top_right{
+    float: right;
+    margin-top: 15px;
+}
+#top_right li{
+    font-weight: 600;
+    float: left;
+    font-size: 13px;
+    margin-right: 40px;
+    list-style: none;
+}
+a:hover{
+    color: #00916f;
+    text-decoration: none;
+}
+a:focus{
+    color: #006a51;
+}
+section{
+    background-color: #e1e1e1;
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+    margin-left: 350px;
+}
+h4{
+    color: grey;
+   margin-left: 250px;
+    font-size: 22px;
+}
+#box-red{
+   margin-top: -20px;
+}
+.green1{
+    font-size: 16px;
+    border: 2px solid #00a981;
+    background-color: #00a981;
+    height: 40px;
+    color: white;
+}
+.green2{
+    height: 70px;
+    color: white;
+    font-size: 40px;
+    background-color: #00916f;
+    border: 2px solid #00916f;
+}
+.b_green2{
+    border: 2px solid #00a981;
+    background-color: #00a981;
+    height: 70px;
+    color: white;
+}
+.buy_green{
+    font-size: 10px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #008062;
+    border: 2px solid #008062;
+    margin-top: 12px;
+}
+.col-md-3{
+    margin-top: 20px;
+}
+.red1_1{
+    font-size: 22px;
+    border: 2px solid #df0000;
+    background-color: #df0000;
+    height: 70px;
+    color: white;
+}
+.red1{
+    font-size: 16px;
+    border: 2px solid #df0000;
+    background-color: #df0000;
+    height: 40px;
+    color: white;
+}
+.red2{
+    height: 70px;
+    color: white;
+    font-size: 40px;
+    border: 2px solid #940000;
+    background-color: #940000;
+}
+.b_red2{
+    border: 2px solid #df0000;
+    background-color: #df0000;
+    height: 70px;
+    color: white;
+}
+.buy_red{
+    font-size: 10px;
+    height: 30px;
+    border-radius: 2px;
+    border: 2px solid #940000;
+    background-color: #940000;
+    margin-top: 12px;
+}
+.color_white{
+    background-color: white;
+    height: 40px;
+    border: 2px solid white;
+    font-size: 14px;
+}
+.color_grey{
+    background-color: #efefef;
+    height: 40px;
+    border: 2px solid #efefef;
+    font-size: 14px;
+}
+.box{
+   margin-left: 150px;
+}

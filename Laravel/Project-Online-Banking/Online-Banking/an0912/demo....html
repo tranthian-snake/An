@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+</head>
+<body>
+<script src="data/users.json"></script>
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+    var User = {
+        id: 0,
+        name: "",
+        telephone: "",
+        address: "",
+        run: function () {
+            console.log("Running...");
+        },
+        showInfo: function () {
+            console.log(this.id);
+            console.log(this.name);
+            console.log(this.telephone);
+            console.log(this.address);
+        },
+        setInfo: function (id2,name2,tel2,address2) {
+            this.id=id2;
+            this.name= name2;
+            this.telephone=tel2;
+            this.address=address2;
+        },
+
+        setData: function (u) {
+            this.id=u.id;
+            this.name=u.name;
+            this.telephone=u.telephone;
+            this.address=u.address;
+        }
+    };
+
+    var users = [];
+    $.ajax({
+        url:"user.json",
+        method:"GET",
+        success: function (result){
+            for (var i=0;i<result.length;i++){
+                var u = Object.create(User);
+                // u.setInfo(result[i].id,result[i].name,
+                //     result[i].telephone,result[i].address);
+                u.setData(result[i]);
+                users[i]=u;
+            }
+            console.log(users)
+        }
+
+    });
+
+</script>
+</body>
+</html>

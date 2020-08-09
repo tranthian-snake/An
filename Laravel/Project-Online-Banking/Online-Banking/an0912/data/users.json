@@ -1,0 +1,18 @@
+[{
+  "id": 1,
+  "name": "Quỳnh",
+  "telephone": "00966803014",
+  "address": "Hà Nội"
+},
+  {
+    "id": 2,
+    "name": "Ân",
+    "telephone": "00966803015",
+    "address": "Hà Nội"
+  },
+  {
+    "id": 3,
+    "name": "Hạnh",
+    "telephone": "00966803016",
+    "address": "Hà Nội"
+  }]

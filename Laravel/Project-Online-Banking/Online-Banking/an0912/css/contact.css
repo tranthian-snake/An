@@ -1,0 +1,211 @@
+
+.header{
+    height: 180px;
+    background-color: rgb(255, 209, 237);
+    border-bottom: 5px solid #951947;
+}
+.header-icon{
+    height: 120px;
+    border-bottom: black 3px dashed;
+}
+.logo-name{
+    margin-left: 50px;
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+    width: 20%;
+}
+.name{
+    float: right;
+    width: 75%;
+    margin-top: -15px;
+}
+.icon{
+    margin-left: 100px;
+    margin-top: 35px;
+    width: 300px;
+}
+.icon li{
+    list-style: none;
+    float: left;
+    color: #951947;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.icon li:hover{
+    color: #cc4185;
+}
+.icon li:focus{
+    color: #642140;
+}
+.header-icon h1{
+    color: #951947;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'McLaren', cursive;
+}
+.header-icon h3{
+    color: #951947;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'McLaren', cursive;
+}
+.icon-cake{
+    margin-top: 5px;
+}
+.fa-fire{
+    font-size: 30px;
+    color: #fec80f;
+    margin-left: 90px;
+}
+#dragon{
+}
+#fire{
+    margin-top: 30px;
+}
+.fa-dragon{
+    font-size: 50px;
+    color: #951947;
+    margin-right: 15px;
+}
+.fa-firefox{
+    color: #e2383e;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.header-text{
+    height: 60px;
+    margin-top: 15px;
+}
+.set{
+    margin-left: 25%;
+}
+.header-text li{
+    list-style: none;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    margin-right: 80px;
+    float: left;
+}
+.header-text a{
+    color: #db49a1;
+}
+.header-text a:hover{
+    color: #8b2f66;
+    text-decoration: none;
+}
+.header-text a:focus{
+    color: #602046;
+    text-decoration: none;
+}
+
+
+
+
+
+#box-bottom-left {
+    float: left;
+    margin-top: 45px;
+    color: white;
+    font-size: 20px;
+}
+.bottom{
+    margin-top: 45px;
+    font-size: 40px;
+    color: white;
+}
+
+footer{
+    background-color: rgba(209, 79, 79, 0.46);
+    height: 370px;
+}
+footer ul{
+    margin-top: 20px;
+}
+footer li{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    float:left;
+    margin-left: 30px;
+    list-style: none;
+    magin-right:40px;
+}
+footer a{
+    color:white;
+}
+#logo1{
+    background: white;
+}
+.logo1{
+    margin-top: 50px;
+}
+
+.tieude1{
+    color: white;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 204px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section{
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.lh{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#infor{
+    margin-top: 50px;
+}
+#checks{/* box của phần thông tin cá nhân*/
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 600px;
+}
+#send {
+    /* phần này là nút gửi thông tin khách hàng*/
+    margin-bottom: 90px;
+    margin-left: 80%;
+}
+#footer{
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+}
+.btn{
+    width: 100px;
+}
+.ttcn{
+    width: 100%;
+    text-align: center;
+}
+.roto{
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+.lh_1{
+    margin-top: 20px;
+}

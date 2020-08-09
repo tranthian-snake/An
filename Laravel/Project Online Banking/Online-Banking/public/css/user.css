@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main_page{
+    margin: 3rem 0;
+}
+
+/*Navigate tab*/
+.user-tab{
+    margin: 8rem 0 0;
+}
+.user-tab .menu-list ul{
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.user-tab .menu-list ul li a{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: white;
+    border: solid 2px black;
+    background-color: #2991cc;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.user-tab .menu-list ul li a:hover{
+    background-color: #145d8e;
+}
+
+/*Account menu*/
+.login_info ul li{
+    list-style: none;
+    border: solid 1px black;
+    padding: 1rem;
+    background-color: #2991cc;
+}
+
+.login_info ul li a{
+    text-decoration: none;
+    text-align: left;
+    padding: 1rem;
+    margin: 2rem 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.login_info ul li a i{
+    margin: 0 1.5rem 0 0;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.login_info ul li:hover{
+    background-color: #2991cc;
+}
+
+/*Account Manage*/
+.account_info .money-table table{
+    border: solid 1px black;
+}
+
+.account_info .money-table table tr th{
+    border: solid 1px black;
+    text-align: center;
+    background-color: #2991cc;
+    color: white;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.account_info .money-table table tr td{
+    border: solid 1px black;
+    text-align: center;
+    color: black;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.account_info .money-table .submit{
+    float: right;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    background-color: #2991cc;
+    border-radius: 10px;
+}
+
+.account_info .money-table .submit a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.account_info .money-table .submit:hover{
+    background-color: #145d8e;
+}
+
+
+/*Account transaction checking*/
+.account_info .money-checking form h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+}
+
+.account_info .money-checking form h3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.account_info .money-checking form p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1.5rem 0;
+}
+
+.account_info .money-checking form .datalist{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+.account_info .money-checking form table{
+    margin: 2rem 0;
+}
+
+.account_info .money-checking form table tr th{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #2991cc;
+}
+
+.account_info .money-checking form table tr td{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+}
+
+.account_info .money-checking form table{
+    margin: 2rem 0;
+}
+
+/*button*/
+.account_info .money-checking form table tr,
+.account_info .money-checking form table th,
+.account_info .money-checking form table td{
+    border: solid 1px black;
+    text-align: center;
+}
+
+.account_info .money-checking form button{
+    border-radius: 10px;
+    color: white;
+    margin: 1.5rem 0;
+}
+
+.account_info .money-checking form .download,
+.account_info .money-checking form .submit {
+    background-color: #145d8e;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+}
+
+.account_info .money-checking form .submit,
+.account_info .money-checking form .download:hover{
+    background-color: #145d8e;
+}
+
+/*Bill Paying*/
+
+/*Help Menu*/
+.help .help-menu ul{
+    list-style: none;
+}
+
+.help .help-menu ul li{
+    padding: 1rem;
+    border: solid 1px black;
+    background-color: #2991cc;
+}
+
+.help .help-menu ul li a{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}

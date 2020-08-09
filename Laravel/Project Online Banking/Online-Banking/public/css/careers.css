@@ -1,0 +1,178 @@
+.intro{
+    margin-top: 2rem;
+    background-image: url("../images/careers(ảnh nền).jpg");
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: fixed;
+}
+
+.container{
+}
+
+.intro-content{
+    margin: 9.5rem 0;
+    padding: 5rem;
+}
+
+.intro-content h1{
+    color: white;
+    font-size: 5.5rem;
+    line-height: 6rem;
+    font-weight: bold;
+}
+
+.intro-content h3{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 30rem;
+}
+
+
+/*table*/
+.intro .table-job{
+    height: 520px;
+    width: 27%;
+    background-color: rgba(138, 109, 59, 0.71);
+    margin-top: 20rem;
+    border-radius: 2rem;
+    float: right;
+    color: white;
+
+}
+
+.intro .table-job h2{
+    padding-top: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-job .searchCounty{
+    height: 4.5rem;
+    background-color: rgba(80, 59, 24, 0.71);
+    text-align: center;
+    border: none;
+}
+.table-job .searchCounty .tabName{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -0.7rem;
+    float: left;
+}
+
+.table-job #tabpanel1{
+    padding-top: 2rem;
+}
+
+.table-job .form-group .keywordUs{
+    height: 4.5rem;
+    margin-bottom: 2rem;
+}
+.table-job .search{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(5, 106, 194, 0.83);
+    height: 5rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.table-job .form-group .map{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: white;
+}
+
+/*content*/
+.content .start{
+    text-align: center;
+    position: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.content .start h2{
+    color: #0e1555;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: bold;
+}
+.content .start p{
+    color: #3b3b3b;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.content .body{
+    padding-bottom: 10rem;
+}
+
+.content .body h3{
+    color: #0e1555;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content .body h4{
+    color: rgba(84, 84, 245, 0.96);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.content .body p{
+    color: #3b3b3b;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.content .body a{
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.end{
+    text-align: center;
+    position: center;
+    padding: 5rem 0 10rem 0;
+
+    background-color: rgba(59, 179, 213, 0.2);
+}
+
+.end h4{
+    color: #0e1555;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.end p{
+    color: #3b3b3b;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.end .red-circular-arrow-icon{
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/circle_button_red.svg");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.end .red-circular-arrow-icon:hover{
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/circle_button_red_hover.svg");
+    background-repeat: no-repeat;
+}

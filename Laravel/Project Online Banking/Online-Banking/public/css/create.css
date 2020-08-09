@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-create{
+    margin: 10rem 0;
+}
+
+.user-create h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+.user-create form{
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.user-create form label{
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.user-create form input{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.user-create #submit{
+    text-decoration: none;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: white;
+    background-color: #2991cc;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.user-create #submit:hover{
+    background-color: #145d8e;
+}

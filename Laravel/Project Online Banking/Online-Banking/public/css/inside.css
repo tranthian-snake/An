@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.transaction-inside{
+    margin: 10rem 0;
+}
+
+.transaction-inside h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+.transaction-inside form label{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.transaction-inside form textarea{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding: 1rem;
+    resize: none;
+}
+
+.transaction-inside form datalist{
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.transaction-inside ul{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.transaction-inside ul li{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.transaction-inside form #submit{
+    text-decoration: none;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: white;
+    background-color: #2991cc;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 2rem 0;
+}
+
+.transaction-inside form #submit:hover{
+    background-color: #145d8e;
+}
+
+
+
+
+
+
+

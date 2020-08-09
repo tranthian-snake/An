@@ -1,0 +1,95 @@
+/*Intro*/
+.intro{
+    margin-top: 2rem;
+    background-image: url("../images/home(ảnh nền)1.png");
+    background-color: #14233c;
+    height: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: fixed;
+}
+
+.intro-content{
+    margin: 10rem 0;
+    padding: 5rem;
+}
+
+.intro-content h1{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.intro-content h2{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 1.5rem 0;
+    text-align: justify;
+}
+
+.intro-content button{
+    color: white;
+    background-color: #2991cc;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    border: solid 1px #2991cc;
+}
+
+.intro-content button:hover{
+    background-color: #145d8e;
+    border: solid 1px #145d8e;
+}
+
+
+/*Web Services*/
+
+.services{
+    border: solid 1px #f7f7f7;
+}
+.services-content{
+    padding: 5rem;
+}
+
+.services-content h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+    margin: 5rem 0 4rem;
+}
+
+.services-content h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 4rem 0 3rem;
+    text-align: justify;
+}
+
+.services-content button{
+    color: white;
+    background-color: #2991cc;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    border: solid 1px #2991cc;
+}
+
+.services-content button:hover{
+    background-color: #145d8e;
+    border: solid 1px #145d8e;
+}
+
+.services-images{
+    margin: 2rem 0 0 0;
+    padding: 2rem 0 0 0;
+}
